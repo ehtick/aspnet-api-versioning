@@ -1,1 +1,2 @@
-﻿Support OData 9.0 ([#1103](https://github.com/dotnet/aspnet-api-versioning/issues/1103))
+﻿Enable trimming support ([#1094](https://github.com/dotnet/aspnet-api-versioning/issues/1094))
+Fixed OData matches entire controllers or individual actions ([#1118](https://github.com/dotnet/aspnet-api-versioning/issues/1118))
