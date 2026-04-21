@@ -9,6 +9,9 @@
   <Description>A service API versioning library for Microsoft ASP.NET Core with OData v4.0.</Description>
   <PackageTags>Asp;AspNet;AspNetCore;Versioning;OData</PackageTags>
   <IsTrimmable>true</IsTrimmable>
+  
+  <!-- TODO: remove when OData net.10 is out of preview -->
+  <NoWarn>$(NoWarn);NU5104</NoWarn>
  </PropertyGroup>
 
  <ItemGroup>

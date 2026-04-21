@@ -9,6 +9,9 @@
   <Description>The API Explorer extensions for ASP.NET Core API Versioning and OData v4.0.</Description>
   <PackageTags>Asp;AspNet;AspNetCore;Versioning;ApiExplorer;OData</PackageTags>
   <IsTrimmable>true</IsTrimmable>
+
+  <!-- TODO: remove when OData net.10 is out of preview -->
+  <NoWarn>$(NoWarn);NU5104</NoWarn>
  </PropertyGroup>
 
  <ItemGroup>
