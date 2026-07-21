@@ -21,7 +21,6 @@
   </Folder>
   <Folder Name="/.github/workflows/">
     <File Path=".github/workflows/codeql-analysis.yml" />
-    <File Path=".github/workflows/rebase-pr.yml" />
   </Folder>
   <Folder Name="/.vscode/">
     <File Path=".vscode/extensions.json" />
